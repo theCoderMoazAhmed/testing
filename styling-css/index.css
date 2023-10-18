@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Gabarito&family=Heebo:wght@500&family=Josefin+Sans:wght@500&family=Kanit&family=Lato&family=Oswald&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Gabarito&family=Heebo:wght@500&family=Josefin+Sans:wght@400;500&family=Kanit&family=Lato&family=Oswald&family=Sofia+Sans&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .container-fluid{
     background:url(/imgs/background.jpg);
@@ -12,19 +13,9 @@
     width: 100vw;
     height: 100vh;
 }
-nav{
-        font-family: 'Barlow Condensed', sans-serif;
-       font-family: 'Gabarito', sans-serif;
-       font-family: 'Heebo', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Kanit', sans-serif;
-        font-family: 'Lato', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-family: 'Sofia Sans', sans-serif;
-}
 .nav {
     --bs-nav-link-hover-color: #ff9900;
-    margin-bottom: 9   px;
+    margin-bottom: 9px;
 }
 .navbar-brand{
    color: white;
@@ -38,14 +29,14 @@ font-weight: 400;
     color: orange;
 }
 nav ul{
-    margin-left: 8rem;
-    /* margin-left: 11rem; */
+
     justify-content: center
 }
 nav ul li .nav-link{
     color: rgb(255, 255, 255);
     font-weight: 700;
     text-decoration: underline;
+    margin-left: 15px;
 }
 nav ul li .nav-link:hover{
     color: orange;
@@ -59,7 +50,6 @@ color: white;
 letter-spacing:1px;
 font-weight: 300;
 padding:4px 12px;
-/* margin-left: 10rem; */
 }
 .nav-btn:hover{
     transition: 1.5s;
@@ -67,3 +57,48 @@ padding:4px 12px;
     color: rgb(255, 255, 255);
     font-weight:bolder;
 }
+.menue-icon{
+    color: #ffa600;
+}
+/* --------------------------------------------Responsive Nav------------------------------------------------------------ */
+.main-content{
+    color: white;
+    margin-top: 10rem;
+}
+p{
+    margin-bottom: 4px;
+}
+.fw-bolder span{
+    color:orange;
+}
+.btn,input{
+    margin-top: 1rem;
+}
+button.btn {
+    border-radius: 60px;
+    position:relative;
+    right: 6rem;
+    padding: 4px 20px;
+    background-color: orange;
+    border-color: orange;
+}
+button.btn:hover{
+    background-color: orange;
+    border-color: orange;
+    box-shadow: 0 0 20px  orange;
+}
+input.srch.btn{
+    cursor: text;
+    border-radius: 60px;
+    padding-right: 7rem;
+}
+input.srch.btn:hover{
+    border-color:  orange;
+    box-shadow: 0 0 10px  orange;
+}
+input.srch.btn:focus{
+    outline: none;
+    border-color:  orange;
+    box-shadow: 0 0 10px  orange;
+}
+/* ---------------------------------------Main-Content-End----------------------------------------------- */
