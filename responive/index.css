@@ -1,36 +1,93 @@
-@media(max-width:992px)
-{
+@media(max-width:992px) {
     .nav-btn {
         display: none;
     }
+
     .navbar-collapse {
-        
+
         background-color: #88858545;
         margin-right: auto;
     }
+
+    .txt {
+        font-size: 13px;
+    }
 }
-@media(max-width:440px){
-    input.srch.btn{
+
+@media(max-width:785px) {
+    .container-2{
+        margin-top: 4rem;
+    }
+    .content {
+        display: block;
+    }
+
+    .content-box {
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+    .content h1 {
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .content-section h1 {
+        display: none;
+    }
+
+    .content-section {
+        margin-left: 11rem;
+        color: white;
+        margin-top: 0;
+    }
+
+    .content-section .txt {
+        font-size: 9px;
+    }
+
+    .second-heading {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 9rem;
+    }
+    .about-btn{
+        margin-left: 5rem;
+        font-size: 9px;
+        border-radius: 60px;
+        padding: 3px 9px;
+    }
+
+}
+
+@media(max-width:440px) {
+    input.srch.btn {
         padding-right: 4rem;
         font-size: 12px;
     }
+
     button.btn {
         border-radius: 60px;
-        position:relative;
+        position: relative;
         right: 5.3rem;
         padding: 4px 20px;
         font-size: 12px;
     }
-    
+
 }
-@media(max-width:333px){
-    input.srch.btn{
+
+@media(max-width:333px) {
+    input.srch.btn {
         padding-right: 0rem;
         font-size: 9px;
     }
+
     button.btn {
         border-radius: 60px;
-        position:static;
+        position: static;
         padding: 5px 6px;
         font-size: 10px;
     }

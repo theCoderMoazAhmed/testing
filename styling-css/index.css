@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
 }
 .container-fluid{
     background:url(/imgs/background.jpg);
@@ -74,7 +75,7 @@ p{
 .btn,input{
     margin-top: 1rem;
 }
-button.btn {
+.main-srch-btn {
     border-radius: 60px;
     position:relative;
     right: 6rem;
@@ -82,7 +83,7 @@ button.btn {
     background-color: orange;
     border-color: orange;
 }
-button.btn:hover{
+.main-srch-btn:hover{
     background-color: orange;
     border-color: orange;
     box-shadow: 0 0 20px  orange;
@@ -102,3 +103,61 @@ input.srch.btn:focus{
     box-shadow: 0 0 10px  orange;
 }
 /* ---------------------------------------Main-Content-End----------------------------------------------- */
+
+.container-1{
+    min-height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+    background-color: rgb(46, 45, 45);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.content h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.content{
+    display: none;
+}
+.content-box{
+   margin-top: 5rem;
+   margin-left:4rem;
+}
+.content-section{
+margin-left: 19rem;
+color:white;
+margin-top: 2rem;
+}
+.about-image{
+    float: left;
+}
+img{
+    width: 16rem;
+}
+.second-heading{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.txt{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.about-btn{
+    border-radius: 60px;
+    padding: 4px 15px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+}
+.about-btn:hover{
+    border-color: orange;
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+}
