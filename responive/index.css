@@ -15,11 +15,19 @@
 }
 
 @media(max-width:785px) {
-    .container-2{
-        margin-top: 4rem;
+    .container-2 {
+        margin-top: 1rem;
     }
+
     .content {
         display: block;
+    }
+
+    .content p {
+        color: white;
+        letter-spacing: 0;
+        font-weight: lighter;
+        font-size: 10px;
     }
 
     .content-box {
@@ -27,10 +35,12 @@
         margin-left: 0;
 
     }
+
     .content h1 {
         color: #ffffff;
         font-size: 30px;
     }
+
     .content-section h1 {
         display: none;
     }
@@ -54,16 +64,56 @@
     img {
         width: 9rem;
     }
-    .about-btn{
+
+    .about-btn {
         margin-left: 5rem;
         font-size: 9px;
         border-radius: 60px;
         padding: 3px 9px;
     }
-
+    .s-heading{
+        display: block;
+    }
+    /* ---- */
+    .card {
+        height: 18rem;
+        margin-left: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.152); 
+        color: rgb(255, 255, 255);
+        border-radius: 9px;
+    }
+    .card-content{
+        display: flex;
+        align-items: center;
+    }
+    .card{
+        height: 20rem;
+        width: 18rem;
+        margin-left: 1.8rem;
+    }
+    .card .fa{
+    margin-top: 2rem;
+    }
+    .s-heading {
+        margin-top: 2rem;
+    }
+    .card-body{
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .card .fa{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .card-body{
+        font-size: 11px;
+    }
+    .card{
+        margin-left: 0;
+    }
 }
 
-@media(max-width:440px) {
+@media(max-width:441px) {
     input.srch.btn {
         padding-right: 4rem;
         font-size: 12px;
@@ -77,6 +127,37 @@
         font-size: 12px;
     }
 
+    .about-image {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 6rem;
+    }
+
+    .content-section {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .second-heading {
+        margin-top: 2rem;
+    }
+
+    .txt {
+        margin-top: 1px;
+    }
+    .about-btn.btn {
+        right: 2.3rem;
+        padding: 3px 20px;
+        font-size: 10px;
+    }
+    .about-btn{
+        margin-top: 10px;
+    }
 }
 
 @media(max-width:333px) {
@@ -84,7 +165,11 @@
         padding-right: 0rem;
         font-size: 9px;
     }
-
+    .about-btn.btn {
+        right: 2.3rem;
+        padding: 3px 20px;
+        font-size: 10px;
+    }
     button.btn {
         border-radius: 60px;
         position: static;

@@ -13,10 +13,14 @@
     background-size:cover;
     width: 100vw;
     height: 100vh;
+    background-color: gray;
 }
 .nav {
     --bs-nav-link-hover-color: #ff9900;
     margin-bottom: 9px;
+}
+.col-2{
+    width: auto;
 }
 .navbar-brand{
    color: white;
@@ -52,10 +56,18 @@ letter-spacing:1px;
 font-weight: 300;
 padding:4px 12px;
 }
+.nav-btn:focus{
+    /* outline: none; */
+    border-color:  orange;
+    box-shadow: 0 0 10px  orange
+                0 0 20px  orange
+                0 0 30px  orange;
+}
 .nav-btn:hover{
     transition: 1.5s;
-    padding:4px 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 179, 0);
+    background-color: rgb(43, 40, 40);
+    /* border: 1px solid orange; */
     font-weight:bolder;
 }
 .menue-icon{
@@ -160,4 +172,56 @@ img{
     border-color: orange;
     background-color: rgb(46, 45, 45);
     color: rgb(255, 255, 255);
+}
+/* -------------------------------------------------------------About-End------------------------------------------------------------------------------ */
+.services{
+    min-height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+    /* background-color: rgb(46, 45, 45); */
+    background-color:rgb(0, 0, 0);
+}
+.heading-1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.heading-1 h1{
+font-weight: bolder;
+font-size: 3rem;
+color: white;
+}
+.card {
+    height: 18rem;
+    margin-left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.152); 
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+}
+.card{
+    height: 20rem;
+    width: 18rem;
+    margin-left: 1.8rem;
+}
+.card .fa{
+margin-top: 2rem;
+}
+.s-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.card-body{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.card .fa{
+    display: inline-flex;
+    justify-content: center;
+}
+.card-body{
+    font-size: 11px;
 }
