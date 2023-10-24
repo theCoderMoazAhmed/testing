@@ -178,7 +178,6 @@ img{
     min-height: 100vh;
     width:100%;
     overflow-x: hidden;
-    /* background-color: rgb(46, 45, 45); */
     background-color:rgb(0, 0, 0);
 }
 .heading-1{
@@ -197,17 +196,22 @@ color: white;
     color: rgb(255, 255, 255);
     border-radius: 9px;
 }
-.card-content{
+.card-content-1,
+.card-content-2,
+.card-content-3{
     display: flex;
     align-items: center;
 }
+
 .card{
-    height: 20rem;
+    height: 18rem;
     width: 18rem;
     margin-left: 1.8rem;
 }
 .card .fa{
-margin-top: 2rem;
+    font-size:40px;
+    color: orange;
+    margin-top: 2rem;
 }
 .s-heading {
     display: flex;
@@ -217,11 +221,98 @@ margin-top: 2rem;
 .card-body{
     text-align: center;
     margin-top: 1.5rem;
+    font-size: 11px;
 }
 .card .fa{
     display: inline-flex;
     justify-content: center;
 }
-.card-body{
-    font-size: 11px;
+.service-btn{
+    border-radius: 60px;
+    padding: 4px 15px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+}
+.service-btn:hover{
+    border-color: orange;
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+}
+/* ======================================================================Hire============================================================================= */
+.hire{
+    min-height: 40vh;
+    width:100%;
+    overflow-x: hidden;
+    background-color: rgb(46, 45, 45);
+}
+.hire-btn{
+    border-radius: 60px;
+    padding: 4px 20px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+}
+.hire-btn:hover{
+    border-color: orange;
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+}
+.hire-con{
+    margin-top: 4rem;
+}
+.hire-main{
+    display: flex;
+    justify-content:center;
+    color: white;
+}
+.hire-main p{
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+.hire-btn-1{
+    display: flex;
+    justify-content: center;
+}
+
+/* ============================================================================ */
+.con{
+    min-height: 30vh;
+    width:100%;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    margin-top: 12px;
+}
+.main-tag{
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+.main-tag p{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.con-content{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btn-1{
+    border-radius: 20px;
+    background-color: orange;
+    margin-left: 2px;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn-1 i{
+    padding-top: 1px
+
 }

@@ -12,6 +12,10 @@
     .txt {
         font-size: 13px;
     }
+    /* =============================services=========================== */
+    .card{
+        height: 20rem;
+    }
 }
 
 @media(max-width:785px) {
@@ -71,46 +75,125 @@
         border-radius: 60px;
         padding: 3px 9px;
     }
-    .s-heading{
-        display: block;
-    }
-    /* ---- */
+
+    /* ============================nav============================= */
+
     .card {
         height: 18rem;
         margin-left: 1.5rem;
-        background-color: rgba(255, 255, 255, 0.152); 
+        background-color: rgba(255, 255, 255, 0.152);
         color: rgb(255, 255, 255);
         border-radius: 9px;
     }
-    .card-content{
+
+    .card-content {
         display: flex;
         align-items: center;
     }
-    .card{
+
+    .card {
         height: 20rem;
         width: 18rem;
         margin-left: 1.8rem;
     }
-    .card .fa{
-    margin-top: 2rem;
+
+    .card .fa {
+        margin-top: 2rem;
     }
+
     .s-heading {
         margin-top: 2rem;
     }
-    .card-body{
+
+    .card-body {
         text-align: center;
         margin-top: 1.5rem;
     }
-    .card .fa{
+
+    .card .fa {
         display: inline-flex;
         justify-content: center;
     }
-    .card-body{
+
+    /* } */
+
+    .heading-1 h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        height: 16rem;
+        width: 14rem;
+        margin-left: 1.8rem;
+    }
+
+    .card-body {
+        margin-top: 0.5rem;
         font-size: 11px;
     }
-    .card{
-        margin-left: 0;
+
+    .card .fa {
+        font-size: 20px;
+        margin-top: 16px;
     }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 8px;
+    }
+
+    .service-btn {
+        margin-top: 8px;
+        font-size: 10px;
+
+    }
+}
+
+@media(max-width:510px) {
+
+    .heading-1 h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        height: 11rem;
+        width: 14rem;
+        margin-left: 9px;
+    }
+
+    .card-body {
+        margin-top: 0;
+    }
+
+    .card .fa {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+
+    .card-title {
+        font-size: 8px;
+    }
+
+    .card-text {
+        font-size: 6px;
+    }
+
+    .service-btn {
+        margin-left: 0;
+        margin-top: 8px;
+        font-size: 7px;
+
+    }
+
+    /* .card-content-3 {
+        position: absolute;
+        top: 76rem;
+        left: 9rem;
+    } */
+    
 }
 
 @media(max-width:441px) {
@@ -150,13 +233,66 @@
     .txt {
         margin-top: 1px;
     }
+
     .about-btn.btn {
         right: 2.3rem;
         padding: 3px 20px;
         font-size: 10px;
     }
-    .about-btn{
+
+    .about-btn {
         margin-top: 10px;
+    }
+
+    /* ================services============== */
+    .s-heading {
+        display: block;
+        margin-top: 3px;
+    }
+
+    .heading-1 h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        height: 8rem;
+        width: 250rem;
+    }
+
+    .card-body {
+        margin-top: 0;
+    }
+
+    .card .fa {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+
+    .card-title {
+        font-size: 8px;
+    }
+
+    .card-text {
+        font-size: 6px;
+    }
+    /* =====================================Hire============================================= */
+    .hire-main p{
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    .hire-btn{
+        font-size: 10px;
+    }
+    /* ==========================================contact================================================ */
+    .main-tag p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .con-content p{
+        font-size: 10px;
+    }
+    .buttons .btn-1{
+        position: static;
     }
 }
 
@@ -165,15 +301,23 @@
         padding-right: 0rem;
         font-size: 9px;
     }
+
     .about-btn.btn {
         right: 2.3rem;
         padding: 3px 20px;
         font-size: 10px;
+        position: relative;
     }
+
     button.btn {
         border-radius: 60px;
         position: static;
         padding: 5px 6px;
         font-size: 10px;
+    }
+    /* ==================================last========= */
+    .buttons .btn-1{
+        font-size: 10px;
+
     }
 }
